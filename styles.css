@@ -1,1 +1,79 @@
 /* Write your CSS here! */
+body{
+
+    margin:8px;
+    display: block;
+    background-color: beige;
+
+}
+
+#mainHeading{
+
+    color: #d75858; 
+    text-align: center;
+
+}
+
+h2{
+    color: #6980b4; 
+    text-align: center;
+  
+}
+
+h3{
+    color: #df5edc; 
+    text-align: center;
+  
+}
+
+.funParagraph{
+
+    color: #146c1d;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+footer{
+
+    background-color: rgb(231, 239, 208);
+    font-size: small;
+}
+
+nav {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    
+}
+ul {
+    vertical-align:middle;
+    list-style: none;
+    font-family:cursive;
+    font-size: larger;
+    text-align: center;
+    background-color: bisque;
+    width: 100%;
+    
+}
+
+li{
+    display: inline;
+    padding: 50px;
+}
+
+li a:hover:not(.active) {
+    background-color: #c3e3ed;
+}
+  
+li a.active {
+    background-color: #04AA6D;
+}
+
+figure figcaption footer a{
+    text-align: center;
+    width:100%;
+    display:inline-block;
+}
+
+
